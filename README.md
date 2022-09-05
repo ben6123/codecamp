@@ -1,2 +1,2 @@
 # codecamp
-a rep for codecanp
+a rep for codecanp codes
