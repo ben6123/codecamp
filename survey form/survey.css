@@ -1,0 +1,13 @@
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+form{
+    background-color:thistle;
+    margin: 0 auto;
+    width:60vw;
+    max-width: 600px;
+    min-width: 300px;
+    /*margin: 0 auto;*/
+    padding-bottom: 2em;
+  }
