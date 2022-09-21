@@ -5,26 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>freeCodeCamp Survey Form</title>
     <link rel="stylesheet" href="./survey.css">
+    
   </head>
   <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
-      <label for="name" id="name-label">Enter Name: <input type="text" id="name" placeholder="enter name" required></label>
-      <label for="email" id="email-label">Enter email: <input type="email" id="email" placeholder="enter valid email" required></label>
-      <label for="number" id="number-label"> Enter Number: <input type="number" id="number" min="15" max="25" placeholder="input number"></label>
-      <select id="dropdown">
+      <fieldset>
+      <label for="name" id="name-label">Enter Name: <input class="p" type="text" id="name" placeholder="enter name" required></label>
+      <label for="email" id="email-label">Enter Email: <input class="p" type="email" id="email" placeholder="enter valid email" required></label>
+      <label for="number" id="number-label"> Enter Phone Number: <input class="p" type="number" id="number" placeholder="input number"></label><!--  min="15" max="25" -->
+     </fieldset>
+     <fieldset>
+      <label for="dropdown">Which is more important:
+      <select id="dropdown" name="dropdown">
         <option value="">choose one</option>
         <option value="1">water</option>
         <option value="2">food</option>
       </select>
+    </label>
       <label for="boy"><input type="radio" id="boy" name="sex" value="Boy">Boy</label>
       <label for="girl"><input type="radio" id="girl" name="sex" value="girl">Girl</label>
       <label for="items1"><input type="checkbox" id="items1" name="items" value="kossam">kossam</label>
       <label for="items2"><input type="checkbox" id="items2" name="items" value="nouris">nouris</label>
       <label for="items3"><input type="checkbox" id="items3" name="items" value="tamtam">tamtam</label>
       <textarea></textarea>
+    </fieldset>
+    <fieldset>
       <button type="submit" id="submit">submit</button>
+    </fieldset>
     </form>
   </body>
 </html>
