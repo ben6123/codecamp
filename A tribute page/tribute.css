@@ -1,9 +1,22 @@
 #image{
-    max-width:100%;
+    max-width:30%;
     height:auto;
     margin:auto;
-    width:20%;
+    width:20vw;
+    border: 1px solid blueviolet;
   }
 img{
     display:block;
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    width: 80%;
+    margin:4rem auto;
+  }
+  #img-caption{
+    height:auto;
+    margin:12px auto;
+    width:20vw;
   }
