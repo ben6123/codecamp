@@ -1,22 +1,72 @@
-#image{
-    max-width:30%;
-    height:auto;
-    margin:auto;
-    width:20vw;
-    border: 1px solid blueviolet;
-  }
-img{
-    display:block;
-  }
-  h1{
-    text-align: center;
-  }
-  p{
-    width: 80%;
-    margin:4rem auto;
-  }
-  #img-caption{
-    height:auto;
-    margin:12px auto;
-    width:20vw;
-  }
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: black; */
+  /* margin: 20px; */
+}
+
+#main {
+  margin: 30px 10px;
+  background-color:bisque;
+}
+#image {
+  max-width: 1000px;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  /* border: 1px solid blueviolet; */
+  display: block;
+}
+.container {
+  width: 99%;
+  margin: auto;
+  background-color: white;
+  padding-top: 15px;
+}
+.the-man {
+  text-align: center;
+  color: brown;
+}
+#img-div {
+  padding: 15px;
+}
+/* #tribute-link {
+  padding-left: 50px;
+  color: blue; }*/
+
+h1,h3 {
+  text-align: center;
+}
+.tribute-info {
+  width: 92%;
+  margin: 1rem auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+#img-caption {
+  text-align: center;
+  margin: 12px auto;
+  /* height:auto; */
+  /* width:20px; */
+}
+ul{
+  width: 87%;
+  margin: auto;
+}
+.time-line{
+  margin: 20px 40px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer{
+  background-color:bisque;
+/* border: 2px solid black; */
+height: 50px;
+margin:0 10px 0px;
+
+}
