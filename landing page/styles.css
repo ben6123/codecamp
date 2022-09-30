@@ -1,0 +1,22 @@
+#nav-bar{
+  position:fixed;
+  background-color:pink;
+  width:100%;
+  height: 60px;
+}
+#header{
+  position:fixed;
+}
+@media (max-width:800px){
+  #nav-bar{
+    background-color:red;
+    width:70%;
+    height: 60px;
+  }
+}
+.flex{
+  display:flex;
+  width:30px;
+  height:50px;
+  background-color:green;
+}
