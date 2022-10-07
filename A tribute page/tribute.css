@@ -11,21 +11,23 @@
 
 #main {
   margin: 30px 10px;
-  background-color:bisque;
+  background-color:rgba(139, 107, 68, 0.4);
 }
-#image {
-  max-width: 1000px;
+
+ #image{
+  max-width: 100%;
   width: 300px;
   height: auto;
-  margin: auto;
-  /* border: 1px solid blueviolet; */
+  margin:0 auto;
   display: block;
+  
 }
 .container {
   width: 99%;
   margin: auto;
   background-color: white;
   padding-top: 15px;
+  display: block;
 }
 .the-man {
   text-align: center;
@@ -41,7 +43,7 @@
 h1,h3 {
   text-align: center;
 }
-.tribute-info {
+#tribute-info {
   width: 92%;
   margin: 1rem auto;
   line-height: 1.6;
@@ -65,7 +67,7 @@ ul{
 
 }
 footer{
-  background-color:bisque;
+  background-color:rgba(139, 107, 68, 0.4);
 /* border: 2px solid black; */
 height: 50px;
 margin:0 10px 0px;
