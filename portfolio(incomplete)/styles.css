@@ -6,13 +6,31 @@
   
   #welcome-section{
     height:100vh;
+    background-image: url(challenges.jpg);
+    background-size: cover;
+    color: #fff;
   }
   #navbar{
     position:fixed;
+    display: none;
   }
 
-  @media (max-width:300px){
+
+  @media (max-width:100px){
     body{
       background-color:red;
   }
+}
+/* .image{
+  
+} */
+.info{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  gap:40px
+}
+#projects{
+  background-color: rgba(66, 60, 60, 0.337);
 }
