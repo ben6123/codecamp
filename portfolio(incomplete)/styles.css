@@ -9,6 +9,7 @@
     background-image: url(challenges.jpg);
     background-size: cover;
     color: #fff;
+    position: relative;
   }
   #navbar{
     position:fixed;
@@ -21,16 +22,53 @@
       background-color:red;
   }
 }
-/* .image{
+.image{
+  /* height: ; */
+  width: auto;
+  /* background-size:auto; */
+  /* display: inline-block; */
+  /* height: ; */
   
-} */
+}
 .info{
-  width: 80%;
+  max-width: 80%;
+  /* height: ; */
+  /* margin: auto; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+transform:translate(-50%,-50%);
+
   display: flex;
   align-items: center;
   border: 1px solid red;
   gap:40px
+
 }
-#projects{
+.projects{
+  padding-top:30px;
   background-color: rgba(66, 60, 60, 0.337);
+  height:100vh;
+
+}
+/* #projects{
+
+} */
+footer{
+  height: 50vh;
+}
+
+.project-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  justify-items: center;
+  align-content: start;
+  align-items: start;
+  gap:30px;
 }
