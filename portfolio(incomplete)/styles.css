@@ -3,7 +3,9 @@
   padding:0;
   box-sizing:border-box;
   }
-  
+  /* html{
+
+  } */
   #welcome-section{
     height:100vh;
     background-image: url(challenges.jpg);
@@ -23,11 +25,9 @@
   }
 }
 .image{
-  /* height: ; */
-  width: auto;
-  /* background-size:auto; */
-  /* display: inline-block; */
-  /* height: ; */
+  width: 100%;
+  margin: 0;
+  border: 2px solid pink;
   
 }
 .info{
