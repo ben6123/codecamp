@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* line-height: 1; */
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #36414ba0;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-weight: 00;
+  font-size: 1.8rem;
+}
+
+.container {
+  width: 70%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 10rem auto;
+  /* padding-bottom: 2em; */
+  /* transform: translate(30%,30%); */
+  border: 0.2rem solid #343a40;
+  border-radius: 0.8rem;
+
+  padding: 0 0.6rem;
+}
+
+.form {
+  padding: 2rem 0;
+  border: none;
+  /* border-top: 2px solid #343a40;
+  border-bottom: 2px solid #343a40;
+} */
+}
+
+.head1 {
+  margin: 2.8rem auto;
+  text-align: center;
+}
+
+/* NAV ITEMS */
+.form-nav {
+  padding: 0.2rem 6rem;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: inline-block;
+
+}
+
+.steps:link,
+.steps:visited {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding: 0.4rem 0.8rem;
+  transition: all 0.5s;
+  
+}
+
+.steps:hover,
+.steps:active {
+  color: #343a40;
+  border-bottom: 1px solid currentColor;
+}
+
+/* ACTIVE STEP */
+.nav-items:first-child > a:link {
+  background-color: #343a40;
+  border-radius: 0.5rem;
+  border: none;
+  pointer-events: none;
+}
+/*            */
+
+.r-arrow {
+  stroke: #343a40;
+  width: 2.4rem;
+}
+
+.label {
+  display: block;
+  margin: 0;
+}
+
+.input {
+  margin: 0.1rem 0 2rem 0;
+  width: 100%;
+  /* min-height: 2rem; */
+  background-color: #343a40;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1.6rem;
+  
+}
+
+.button{
+  width: 35%;
+  height: 4.2rem;
+  margin:2rem auto;
+  display: block;
+}
+
+.button:hover{
+  border: none;
+   background-color: #AA3939;
+  color: #fdf2e9;
+  /* padding: 1.2rem; */
+}
