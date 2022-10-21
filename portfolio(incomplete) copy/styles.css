@@ -1,0 +1,118 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.navbar{
+  height:6rem;
+  background-color: rgb(255, 0, 0);
+  /* z-index:; */
+  
+}
+.main{
+
+  background: linear-gradient(to bottom right ,rgba(0, 0, 0, 0.837),rgba(80, 75, 75, 0.662));
+}
+
+#navbar {
+  /* position: fixed; */
+  width: 100%;
+  /* display: none; */
+}
+
+#welcome-section {
+  height: 70rem;
+  /* background-image: url(challenges.jpg); */
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+
+.image {
+  width: 100%;
+  height: auto;
+  margin: none;
+  /* border: 2px solid pink; */
+}
+
+.info {
+  max-width: 90%;
+  /* height: ; */
+  /* margin: auto; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  /* border: 1px solid red; */
+  gap: 40px;
+}
+
+.head1 {
+  margin: 0 2rem;
+}
+
+.projects {
+  padding:30px 0;
+  background-color: rgba(66, 60, 60, 0.337);
+  /* height:100 vh; */
+}
+/* #projects{
+
+} */
+footer {
+  height: 50vh;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  /* border: 2px solid red; */
+  width: 70%;
+  margin: 2rem auto;
+  justify-items: center;
+  align-content: center;
+  gap: 0.5rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+  padding: 2rem;
+  /* height: 30rem; */
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
